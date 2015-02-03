@@ -1,0 +1,151 @@
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+.whole{
+  width: 100%;
+  height: 100%;
+}
+
+.navBar{
+  box-sizing: border-box;
+  height: 12%;
+  width: 100%;
+  top: 0;
+  background: #7AAB8A;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+ .landscapes{
+  background: url("https://scontent-b-ord.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/426866_453192831414044_1002825882_n.jpg?oh=4d252080f16157cfe29f8da500a6e81a&oe=555139D4");
+  background-size: 100% 100%;
+   padding: 1%;
+}
+
+
+
+
+.home{
+  background: url("https://scontent-a-ord.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/423065_271564752910187_1984153541_n.jpg?oh=1afc0c7c5e11ad675fbf24e50ac27932&oe=556F2EF9");
+  background-size: 100% 100%;
+  padding: 1%;
+}
+
+.portraits{
+  background: url("https://scontent-a-ord.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/298890_193029847430345_3427070_n.jpg?oh=eca50050dd4b82132f87bc20ee85f290&oe=554ECE0C");
+  background-size: 100% 100%;
+  padding: 1%;
+
+}
+
+.other{
+  background: url("https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/320559_192328760833787_1439269_n.jpg?oh=cb7075a5ca94ccf3cb4b9df337a0d563&oe=5520BB97&__gda__=1431607233_b3700b90f59cd9d3740548e956622e42");
+  background-size: 100% 100%;  
+  padding: 1%;
+}
+
+.about{
+  background: url("https://scontent-b-ord.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/302977_192328600833803_3560518_n.jpg?oh=58dc5aaae5bb976d7140a9f49415c258&oe=554E1521");
+  background-size: 100% 100%;
+  padding: 1%;
+
+}
+
+.contact{
+  background: url("https://scontent-a-ord.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/428164_454302567969737_1921738410_n.jpg?oh=bca5d483931bc61df58b4e7a2b76adad&oe=5556E6BB");
+  background-size: 100% 100%;
+  padding: 1%;
+}
+.links{
+  
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  margin: 2% 3%;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.navLink{
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 0 black;
+}
+
+
+}@media screen and (max-width: 800px){
+ .navBar{
+  height: 17%;
+
+}
+  
+  .links{
+    margin: 2% 8%;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .navBar{
+    height: 33%;
+    
+  }
+  .links{
+    display: block;
+    width: 50%;
+    margin: 2% 2% 2% 18%;
+  }
+  
+}
+
+.whole{
+  background: blue;
+  height: 100%;
+  width: 100%;
+  background: url(https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash2/v/t1.0-9/556172_318913511508644_1561888246_n.jpg?oh=07e64858eeee15c566bd522e11492e3e&oe=55218B98&__gda__=1432118591_a02a8628332979238676272b5ecf8687);
+  background-size: 100% 110%;
+  clear: both;
+}
+
+
+.social{
+  height: 15%;
+  width: 50%;
+  background: white;
+  color: blue;
+  text-align: center;
+  margin: 2% 0 0 25%;
+  font-family: sans-serif;
+  font-size: 20px;
+  
+}
+.socialText{
+  box-sizing: border-box;
+  padding: 9% 2% 0 2%;
+}
+
+footer {
+	width:100%;
+	height:60px;
+	bottom:0;
+	left:0;
+	background:#7AAB8A;
+
+}
+
+footer img{
+	height: 30px;
+	width: 45px;
+
+}
+
+footer img:hover{
+	height:35px;
+	width: 50px;
+}
